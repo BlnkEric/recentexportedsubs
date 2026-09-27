@@ -1,0 +1,62 @@
+name: publish-subs
+
+# Rebuilds the GitHub Pages index whenever the exported subscriptions change.
+# The subscription files themselves work without this job — the raw.githubusercontent
+# URLs above are live as soon as the push lands.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: assemble site
+        run: |
+          mkdir -p site
+          cp *.txt site/ 2>/dev/null || true
+          cp index.json site/ 2>/dev/null || true
+          python3 - <<'PY'
+          import json, pathlib, datetime, base64
+          idx = pathlib.Path("index.json")
+          groups = json.loads(idx.read_text())["groups"] if idx.exists() else {}
+          rows = ""
+          for g, m in sorted(groups.items()):
+              if g.endswith(".plain"):
+                  continue
+              rows += f'<tr><td><a href="{g}.txt">{g}</a></td><td>{m["count"]}</td></tr>'
+          html = f"""<!doctype html><meta charset="utf-8">
+          <title>recentexportedsubs</title>
+          <h1>Subscription exports</h1>
+          <p>generated {datetime.datetime.now(datetime.timezone.utc).isoformat()}</p>
+          <table border=1 cellpadding=6><tr><th>group</th><th>configs</th></tr>{rows}</table>
+          <p>Add a link above as a subscription in v2rayN, v2rayNG or V2box.</p>
+          """
+          pathlib.Path("site/index.html").write_text(html)
+          PY
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

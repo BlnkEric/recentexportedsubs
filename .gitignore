@@ -1,0 +1,2 @@
+# readable duplicates stay local only
+*.plain.txt

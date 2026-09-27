@@ -1,0 +1,33 @@
+{
+  "generated": "2026-09-27T16:23:46.741698+00:00",
+  "groups": {
+    "Argo": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/Argo.txt",
+      "count": 20
+    },
+    "Daily": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/Daily.txt",
+      "count": 173
+    },
+    "Alpha": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/Alpha.txt",
+      "count": 55
+    },
+    "VitoreNet": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/VitoreNet.txt",
+      "count": 33
+    },
+    "ConfHub": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/ConfHub.txt",
+      "count": 13
+    },
+    "GitActive": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/GitActive.txt",
+      "count": 402
+    },
+    "Export": {
+      "file": "/home/blnkeric/telegram-neko-sync/subs/Export.txt",
+      "count": 696
+    }
+  }
+}
