@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T15:12:50.421450+00:00",
+  "generated": "2026-09-28T15:25:59.162809+00:00",
   "groups": {
     "Argo": {
       "file": "Argo.txt",
@@ -34,9 +34,9 @@
     "Argo": "f59b745692422d06",
     "Daily": "77a89b67227f19da",
     "Alpha": "644e08b54f45069d",
-    "VitoreNet": "22c791fce98e5a8b",
+    "VitoreNet": "b69f5bfaf1e09410",
     "ConfHub": "837c126b687359a0",
     "GitActive": "6a0ba0a4f1f5d0cd",
-    "Export": "003e6d0b36173fbc"
+    "Export": "38573cc0867a2991"
   }
 }
