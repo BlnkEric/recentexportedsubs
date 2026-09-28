@@ -1,9 +1,9 @@
 {
-  "generated": "2026-09-28T12:35:51.627002+00:00",
+  "generated": "2026-09-28T13:02:20.540360+00:00",
   "groups": {
     "Argo": {
       "file": "Argo.txt",
-      "count": 19
+      "count": 17
     },
     "Daily": {
       "file": "Daily.txt",
@@ -27,16 +27,16 @@
     },
     "Export": {
       "file": "Export.txt",
-      "count": 1329
+      "count": 1327
     }
   },
   "signature": {
-    "Argo": "46dcd5f58efb87c8",
+    "Argo": "f59b745692422d06",
     "Daily": "8be574c5eeee4987",
     "Alpha": "644e08b54f45069d",
     "VitoreNet": "0d7b78b67b4a336a",
     "ConfHub": "c920d8bc003ed425",
     "GitActive": "d682bb55023c1ac6",
-    "Export": "85fb6766d6b22e50"
+    "Export": "0b2718fca8f551c3"
   }
 }
