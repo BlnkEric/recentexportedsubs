@@ -1,13 +1,9 @@
 {
-  "generated": "2026-10-03T01:20:19.278534+00:00",
+  "generated": "2026-10-03T01:52:47.787269+00:00",
   "groups": {
     "Argo": {
       "file": "Argo.txt",
       "count": 16
-    },
-    "Daily": {
-      "file": "Daily.txt",
-      "count": 120
     },
     "Alpha": {
       "file": "Alpha.txt",
@@ -27,16 +23,15 @@
     },
     "Export": {
       "file": "Export.txt",
-      "count": 3247
+      "count": 3127
     }
   },
   "signature": {
     "Argo": "acb8e53f9e8be3cb",
-    "Daily": "eb92f5480efc5940",
     "Alpha": "b91740200f2412a5",
     "VitoreNet": "dc8718da9c4685e8",
     "ConfHub": "9ab50cd8749d5c12",
     "GitActive": "771a21143c1442cf",
-    "Export": "b9bc391de273ca51"
+    "Export": "73d122dd4ef55e8f"
   }
 }
