@@ -1,17 +1,21 @@
 {
-  "generated": "2026-10-05T18:16:05.057025+00:00",
+  "generated": "2026-10-05T18:35:21.326229+00:00",
   "groups": {
+    "Argo": {
+      "file": "Argo.txt",
+      "count": 16
+    },
     "Daily": {
       "file": "Daily.txt",
       "count": 26
     },
     "Alpha": {
       "file": "Alpha.txt",
-      "count": 198
+      "count": 204
     },
     "VitoreNet": {
       "file": "VitoreNet.txt",
-      "count": 745
+      "count": 783
     },
     "ConfHub": {
       "file": "ConfHub.txt",
@@ -19,19 +23,20 @@
     },
     "GitActive": {
       "file": "GitActive.txt",
-      "count": 3165
+      "count": 3315
     },
     "Export": {
       "file": "Export.txt",
-      "count": 4489
+      "count": 4699
     }
   },
   "signature": {
+    "Argo": "acb8e53f9e8be3cb",
     "Daily": "d4098e4c5f9ba560",
-    "Alpha": "34e53d3254064684",
-    "VitoreNet": "fc266f0cc29ac8f6",
+    "Alpha": "d17bedbbbbcf1d66",
+    "VitoreNet": "e985d67b4618e8d7",
     "ConfHub": "8391a6b79ce88e57",
-    "GitActive": "1d62b015fb911359",
-    "Export": "8d6c5d8202970b83"
+    "GitActive": "9f8ba4a533a8a288",
+    "Export": "07d11d89de622c4e"
   }
 }
