@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T17:46:19.593465+00:00",
+  "generated": "2026-10-07T17:50:25.824213+00:00",
   "groups": {
     "Argo": {
       "file": "Argo.txt",
@@ -23,11 +23,11 @@
     },
     "GitActive": {
       "file": "GitActive.txt",
-      "count": 4211
+      "count": 4228
     },
     "Export": {
       "file": "Export.txt",
-      "count": 5985
+      "count": 6002
     }
   },
   "signature": {
@@ -36,7 +36,7 @@
     "Alpha": "feb58d79b6686ced",
     "VitoreNet": "fab52628352f398e",
     "ConfHub": "4ddb4bcc2a137988",
-    "GitActive": "70a033a866874bee",
-    "Export": "45cfec4abaceb8ba"
+    "GitActive": "40396670b49bb8a0",
+    "Export": "3be5b899582bf8e5"
   }
 }
